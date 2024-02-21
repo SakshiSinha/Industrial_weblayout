@@ -133,6 +133,10 @@ button{
 }
 
 .service .image img{
+    width:"50%";
+}
+
+.service .image img{
     width: 660px;
     height: 450px;
 }
@@ -195,6 +199,9 @@ footer{
        height: 450px;
      }
 
+     .feature p{
+        padding-left: 20px;
+     }
     
      .about{
         padding: 20px;
@@ -249,10 +256,17 @@ footer{
         font-size: 42px;
     }
 
-    .service .image,
+    
     .service .content{
         align-items: center;
        width: auto;
        padding-left: 20px !important;
+    }
+    
+}
+
+@media screen and (max-width:576px){
+    .service .image img{
+        width:500px;
     }
 }
