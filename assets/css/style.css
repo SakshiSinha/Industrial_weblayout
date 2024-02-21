@@ -267,6 +267,11 @@ footer{
 
 @media screen and (max-width:576px){
     .service .image img{
-        width:500px;
+        width:400px;
+        height: 300px;
+    }
+
+    .feature p{
+        padding-left: 10px;
     }
 }
