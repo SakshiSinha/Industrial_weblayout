@@ -274,4 +274,9 @@ footer{
     .feature p{
         padding-left: 10px;
     }
+
+    header h2{
+        padding-top: 25px;
+        height: 90px;
+    }
 }
